@@ -4,7 +4,7 @@ public String asdasd(String a) {
 
 		Scanner scanner = new Scanner(System.in);
 		String mail;
-		System.out.println("捞皋老  林家");
+		System.out.println("捞皋老 林家");
 		mail = scanner.nextLine();	
 		
 	}
