@@ -1,28 +1,24 @@
 package com.urdomain.test;
 
+import javax.xml.xpath.XPathVariableResolver;
+
 public class yy {
 
 	public static void main(String[] args) {
 		
-	String name = "Hwang";
-	int PhoneNum = 0;
-
-	}
-	public int number(String name) {
+		yy2 yY2 = new yy2();
 		
-		return 1338;
+		int r1 = yY2.plus(5, 10);
+		System.out.println(r1);
+		
+		System.out.println(yY2.plus(5, 10));
+		
+		byte x = 10;
+		byte y = 4;
+		
+		double r2 = yY2.divide(x, y);
+		System.out.println(r2);
+		
+		
 	}
-	
-	
-	//	public void func(int a){
-	//		System.out.println(a);
-	//		}
-	//함수이름 자유, input : 본인이름 , out : 핸드폰번호 뒷자리 4자리
-	//이름 변수 선언
-	//이름 받아서 전화번호 리턴하는 함수 
-	//출력함수 콜
-	
-	
-	
-	
 }
