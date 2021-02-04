@@ -29,6 +29,10 @@ public class Lotto {
 		//배열내용 출력 (for문 필수 사용)
 		
 		//중복검사 필요
+		
+		
+		 int a = (int) 3.14;
+		 System.out.println(a);
 	}
 
 }
