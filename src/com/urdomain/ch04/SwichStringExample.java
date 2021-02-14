@@ -3,17 +3,17 @@ package com.urdomain.ch04;
 public class SwichStringExample {
 
 	public static void main(String[] args) {
-		String position = "°úÀå";
+		String position = "ê³¼ì¥";
 		
 		switch(position) {
-			case "ºÎÀå":
-				System.out.println("700¸¸¿ø");
+			case "ë¶€ì¥":
+				System.out.println("700ë§Œì›");
 				break;
-			case "°úÀå":
-				System.out.println("500¸¸¿ø");
+			case "ê³¼ì¥":
+				System.out.println("500ë§Œì›");
 				break;
 			default:
-				System.out.println("300¸¸¿ø");
+				System.out.println("300ë§Œì›");
 		}
 
 	}
