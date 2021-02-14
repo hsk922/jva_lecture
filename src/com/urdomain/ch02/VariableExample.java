@@ -3,14 +3,14 @@ package com.urdomain.ch02;
 public class VariableExample {
 
 	public static void main(String[] args) {
-		//10À» º¯¼ö valueÀÇ ÃÊ±â°ªÀ¸·Î ÀúÀå
+		//10ì„ ë³€ìˆ˜ valueì˜ ì´ˆê¸°ê°’ìœ¼ë¡œ ì €ì¥
 		int value=10;
 		
-		//º¯¼ö value °ªÀ» ÀĞ°í 10À» ´õÇÏ´Â »ê¼ú ¿¬»êÀ» ¼öÇà
-		//¿¬»êÀÇ °á°ú°ªÀ» º¯¼ö resultÀÇ ÃÊ±â°ªÀ¸·Î ÀúÀå
+		//ë³€ìˆ˜ value ê°’ì„ ì½ê³  10ì„ ë”í•˜ëŠ” ì‚°ìˆ  ì—°ì‚°ì„ ìˆ˜í–‰
+		//ì—°ì‚°ì˜ ê²°ê³¼ê°’ì„ ë³€ìˆ˜ resultì˜ ì´ˆê¸°ê°’ìœ¼ë¡œ ì €ì¥
 		int result = value +10;
 		
-		//º¯¼ö result °ªÀ» ÀĞ°í ÄÜ¼Ö¿¡ Ãâ·Â
+		//ë³€ìˆ˜ result ê°’ì„ ì½ê³  ì½˜ì†”ì— ì¶œë ¥
 		System.out.println(result);
 
 	}

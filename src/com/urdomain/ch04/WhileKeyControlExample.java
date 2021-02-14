@@ -10,25 +10,25 @@ public class WhileKeyControlExample {
 		while(run) {
 			if(keyCode!=13 && keyCode!=10) {
 				System.out.println("-----------------------");
-				System.out.println("1.Áõ¼Ó | 2.°¨¼Ó | 3.ÁßÁö");
+				System.out.println("1.ì¦ì† | 2.ê°ì† | 3.ì¤‘ì§€");
 				System.out.println("-----------------------");
-				System.out.print("¼±ÅÃ: ");
+				System.out.print("ì„ íƒ: ");
 			}
 			
 			keyCode = System.in.read();
 			
-			if (keyCode == 49) { //1À» ÀĞ¾úÀ» °æ¿ì
+			if (keyCode == 49) { //1ì„ ì½ì—ˆì„ ê²½ìš°
 				speed++;
-				System.out.println("ÇöÀç ¼Óµµ=" + speed);
-			} else if (keyCode == 50) { //2¸¦ ÀĞ¾úÀ» °æ¿ì
+				System.out.println("í˜„ì¬ ì†ë„=" + speed);
+			} else if (keyCode == 50) { //2ë¥¼ ì½ì—ˆì„ ê²½ìš°
 				speed--;
-				System.out.println("ÇöÀç ¼Óµµ=" + speed);
-			} else if (keyCode == 51) { //3À» ÀĞ¾úÀ» °æ¿ì
+				System.out.println("í˜„ì¬ ì†ë„=" + speed);
+			} else if (keyCode == 51) { //3ì„ ì½ì—ˆì„ ê²½ìš°
 				run = false;
 			}
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 
 }

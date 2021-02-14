@@ -3,11 +3,12 @@ package com.urdomain.ch02;
 public class VariableScopeExample {
 
 	public static void main(String[] args) {
-//		int v1 = 15;
-//		if(v1>10 ) {
-//			int v2 = v1 = 10;
-//		}
-//		int v3 = v1 + v2 + 5; // v2 º¯¼ö¸¦ »ç¿ëÇÒ ¼ö ¾ø±â ¶§¹®¿¡ ÄÄÆÄÀÏ ¿¡·¯°¡ »ı±è
+		int v1 = 15;
+		if(v1>10 ) {
+			int v2 = v1 = 10;
+		}
+//		int v3 = v1 + v2 + 5; // v2 ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ê¸° ë•Œë¬¸ì— ì»´íŒŒì¼ ì—ëŸ¬ê°€ ìƒê¹€.
+		int v3 = v1 + 5; 
 	}
 
 }

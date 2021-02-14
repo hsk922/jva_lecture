@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class DoWhileExample {
 
 	public static void main(String[] args) {
-		System.out.println("¸Ş½ÃÁö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
-		System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÏ·Á¸é q¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ë©”ì‹œì§€ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+		System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•˜ë ¤ë©´ që¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		
 		Scanner scanner = new Scanner(System.in);
 		String inputString;
@@ -18,7 +18,7 @@ public class DoWhileExample {
 		} while( ! inputString.equals("q"));
 		
 		System.out.println();
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 
 }

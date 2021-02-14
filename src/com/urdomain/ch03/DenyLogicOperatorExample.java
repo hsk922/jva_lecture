@@ -7,11 +7,9 @@ public class DenyLogicOperatorExample {
 		System.out.println(play);
 		
 		play = !play;
-		
 		System.out.println(play);
 		
 		play = !play;
-		
 		System.out.println(play);
 
 	}
