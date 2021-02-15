@@ -1,2 +1,0 @@
-module jva_lecture {
-}

@@ -1,4 +1,4 @@
-package new_lecture.p2021_02_10;
+package new_lecture.p2021_02_15;
 // p512
 public class SplitEx1 {
 

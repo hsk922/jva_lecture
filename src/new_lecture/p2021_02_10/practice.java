@@ -6,14 +6,15 @@ public class practice {
 	
 	public static void checkman(String ssn){
 		
-		int cNum = Integer.parseInt(ssn.substring(12));
+		int check = Integer.parseInt(ssn.substring(12));
 //		System.out.println("cNum:"+cNum);
-		int[] check = {2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 5};
+		int[] cNum = {2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 5};
 		int a = 0;
 		int ch1 = a%11;
 		int ch2 = 11-ch1;
+		
 		for(int i=0; i<12; i++) {
-			a += Integer.parseInt(ssn.substring(i,i+1))*check[i];
+			a += Integer.parseInt(ssn.substring(i,i+1))*cNum[i];
 		}
 //		System.out.println(a);
 //		System.out.println("a/11몫:"+a/11);
@@ -22,7 +23,7 @@ public class practice {
 			ch2=ch2%10;
 //			System.out.println(ch2);
 		}
-		if(ch2==cNum) {
+		if(ch2==check) {
 			System.out.println("올바른 주민등록번호 입니다.");
 		} else {
 			System.out.println("잘못된 주민등록번호 입니다.");
@@ -38,7 +39,7 @@ public class practice {
 		String n2 = sc.nextLine();
 		String ssn = n1+n2;
 		String g = n2.substring(0, 1);	//주민번호 뒷자리 성별검사
-		
+		//숫자형태로 받으면 뿌릴때 힘듬
 		if(n1.equals("")) {
 			System.out.println("주민번호 앞자리를 입력 하세요.");
 		}else if(n1.length() != 6) {

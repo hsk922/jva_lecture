@@ -1,4 +1,4 @@
-package new_lecture.p2021_02_10;
+package new_lecture.p2021_02_15;
 
 public class AppendStringBuffer {
 	public static void main(String[] args) {
@@ -24,6 +24,7 @@ public class AppendStringBuffer {
 
 		String str = new String(sb1); // StringBuffer를 String으로 변환
 		System.out.println(str.toUpperCase());
+		//자체적으로 변환불가하여 스트링클래스를 이용
 	}
 }
 

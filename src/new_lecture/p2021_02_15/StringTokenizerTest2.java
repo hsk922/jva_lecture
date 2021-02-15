@@ -1,4 +1,4 @@
-package new_lecture.p2021_02_10;
+package new_lecture.p2021_02_15;
 
 import java.util.StringTokenizer;
 
@@ -7,7 +7,7 @@ public class StringTokenizerTest2 {
 	public static void main(String[] args) {
 	
 		String source1="한국 미국 태국 중국 이란";
-		StringTokenizer st1=new StringTokenizer(source1," ");
+		StringTokenizer st1=new StringTokenizer(source1," ");//앞자리:문자형 혹은 문자형 변수
 		while(st1.hasMoreTokens()){		// 가져올 토큰이 있으면
 			System.out.println("st1.token:"+st1.nextToken());
 		}
