@@ -15,7 +15,7 @@ class Point2D{
     y=new_Y;
   }
 }
-//	두 클래스의 공통적인 부분만 부모클래스로
+//	두 클래스의 공통적인 부분만 부모클래스로 상속처리해서 받고 나머지만 기술
 
 class Point3D{
   private int x;

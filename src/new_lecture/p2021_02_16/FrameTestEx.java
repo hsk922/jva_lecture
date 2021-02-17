@@ -1,4 +1,4 @@
-package new_lecture.p2021_02_15;
+package new_lecture.p2021_02_16;
 
 import java.awt.Color;
 import java.awt.Frame;
@@ -10,7 +10,7 @@ public class FrameTestEx extends Frame {
 	public FrameTestEx() {
 
 //		f = new Frame( "Frame Test" );
-		super("Frame Test");	// Frame클래스의 생성자 호출
+		super("Frame Test");	// Frame클래스의 생성자 호출,반드시 첫번째 라인에.
 
 		addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {

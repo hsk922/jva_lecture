@@ -1,4 +1,4 @@
-package new_lecture.p2021_02_15;
+package new_lecture.p2021_02_16;
 
 //부모클래스 안에 있는 메소드는 자식클래스에게 상속된다.
 class Parent {					// 부모 클래스

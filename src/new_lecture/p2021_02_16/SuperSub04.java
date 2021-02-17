@@ -1,4 +1,4 @@
-package new_lecture.p2021_02_15;
+package new_lecture.p2021_02_16;
 
 class Point2D04 {						// 부모 클래스
 	protected int x = 10; // private int x=10;
