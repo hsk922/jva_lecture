@@ -13,7 +13,7 @@ public class practice {
 			lotto.add(num);
 		}
 		System.out.println(lotto);
-		
+//=================================================================		
 		for (Integer a : lotto) {//int Integer 둘다 되는데 어떤걸 쓰는게 맞는지 궁금합니다~
 			System.out.print(a+" ");
 		}

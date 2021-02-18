@@ -1,0 +1,27 @@
+﻿package new_lecture.p2021_02_18;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+public class BufferedReaderTest {
+    public static void main( String[] args ) {
+		
+	InputStream is = System.in;
+	InputStreamReader isr = new InputStreamReader( is );
+	BufferedReader br = new BufferedReader( isr );
+/* 1줄모드
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+*/
+	System.out.print( "Input Data : " );
+		
+	try {//입력한 한줄을 모두읽음.
+	    String inputString = br.readLine();//사용자가 입력한 한 줄을 모두 입력받는 역할.
+	    System.out.println();
+	    System.out.println("Output String = " + inputString );
+	} catch ( IOException io ) {
+	    System.out.println( io.getMessage() );
+	}
+    }//main() end
+}

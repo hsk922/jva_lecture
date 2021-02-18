@@ -1,0 +1,56 @@
+* Data 입.출력 처리
+
+  import  java.io.*;
+
+o 스트림(Stream) : 데이터의 흐름
+ 
+
+Stream - Byte Stream           	    -  입력 (InputStream)
+          (1Byte 단위로 데이터를
+          전송하는 스트림)                출력 (OutputStream)
+			(영문같은)
+
+         Text Stream                -  입력 (Reader)
+         (2Byte 단위로 데이터를
+          전송하는 스트림)    		    -   출력 (Writer)
+			(한글같은)
+
+
+o Byte Stream에 관련된 클래스(1Byte 입.출력 처리)
+	1byte 1개 입력받을수있음
+	(최상위)			(상속)
+  InputStream  - FileInputStream
+  (입력)             FilterInputStream  -  BufferedInputStream
+		  		       	           	          	          	                      	         DataInputStream
+                      ObjectInputStream
+
+  
+  OutputStream - FileOutputStream
+  (출력)              FilterOutputStream  -  BufferedOutputStream    		 				                DataOutputStream
+	           PrintStream
+	           ObjectOutputStream
+
+
+o Text Stream에 관련된 클래스(2Byte 입.출력 처리)
+	2byte 1개 받을 수 있음
+  Reader - BufferedReader
+  (입력)     InputStreamReader - FileReader
+
+  Writer - BufferedWriter
+  (출력)    OutputStreamWriter - FileWriter
+             PrintWriter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
