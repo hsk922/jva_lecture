@@ -26,7 +26,7 @@ tempFile.delete(); // test 디렉토리 삭제
 			
 //2. 비어있지 않는 디렉토리 삭제
 //test디렉토리 안에 있는 모든 파일 구해오기
-//File[] f = tempFile.listFiles();
+//File[] f = tempFile.listFiles();//안에 파일 1차원 배열로 구해옴
 //for(int i=0; i<f.length; i++)
 //	f[i].delete();		//test디렉토리 안에 있는 모든 파일 삭제
 
