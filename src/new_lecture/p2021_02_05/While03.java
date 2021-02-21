@@ -18,7 +18,7 @@ public class While03 {
 			System.out.println(dan+"*"+i+"="+dan*i);
 			i++;
 		}
-		
+		sc.close();
 	}
 
 }

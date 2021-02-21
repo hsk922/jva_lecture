@@ -44,6 +44,7 @@ public class MemberInput {
 			System.out.println("E-Mail:" + m[j].getEmail());
 			System.out.println("주소:" + m[j].getAddress());
 		}
+		sc.close();
 	}
 
 }

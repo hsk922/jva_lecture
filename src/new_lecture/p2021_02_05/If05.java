@@ -29,7 +29,7 @@ public class If05 {
 		}else {
 			System.out.println("F학점");
 		}
-		
+		sc.close();
 	}
 
 }

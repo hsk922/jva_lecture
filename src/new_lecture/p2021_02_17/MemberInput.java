@@ -42,6 +42,7 @@ public class MemberInput {
 			} else if (yn.equals("n")) {
 				break;
 			}
+			sc.close();
 
 		} while (true);
 

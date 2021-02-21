@@ -38,7 +38,7 @@ public class Oper07 {
 	
 	
 	
-		
+	sc.close();
 		
 		
 	}

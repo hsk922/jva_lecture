@@ -23,6 +23,7 @@ public class qw12wqw {
 	    
 		System.out.println(aa);
 		System.out.println(bb);
+		sc.close();
 	}
 
 }

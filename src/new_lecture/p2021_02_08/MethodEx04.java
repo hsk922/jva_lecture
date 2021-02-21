@@ -33,7 +33,8 @@ public class MethodEx04 {
 		int min = MethodEx04.min(n1,n2,n3);	// min 메소드 호출
 		
 		System.out.println("max="+max);
-		System.out.println("min="+min);		
+		System.out.println("min="+min);	
+		sc.close();
 	}
 
 }

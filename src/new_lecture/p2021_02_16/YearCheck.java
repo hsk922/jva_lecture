@@ -16,7 +16,7 @@ public class YearCheck {
 		} else {
 			System.out.println(year + "은 평년입니다");
 		}
-
+		sc.close();
 	}
 
 }

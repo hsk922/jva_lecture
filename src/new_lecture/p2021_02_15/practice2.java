@@ -16,7 +16,7 @@ public class practice2 {
 		} else {
 			System.out.println("평년입니다.");
 		}
-
+		sc.close();
 	}
 
 }

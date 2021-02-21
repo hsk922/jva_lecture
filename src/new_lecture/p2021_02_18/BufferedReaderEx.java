@@ -1,9 +1,7 @@
 package new_lecture.p2021_02_18;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.Socket;
 
 public class BufferedReaderEx {
 

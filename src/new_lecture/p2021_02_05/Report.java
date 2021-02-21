@@ -27,7 +27,8 @@ public class Report{
 //		min = (n1<n2 && n1<n3) ? n1 : (n2<n3) ? n2: n3;
 		
 		System.out.println("max=" + max);
-		System.out.println("min=" + min);		
+		System.out.println("min=" + min);	
+		sc.close();
 		
 	}
 

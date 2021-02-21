@@ -26,7 +26,7 @@ public class Oper05 {
 		}else {
 			System.out.println(n2+"이 "+n1+"보다 크다.");
 		}
-	
+		sc.close();
 	}
  
 }

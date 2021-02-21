@@ -25,6 +25,7 @@ public class If02 {
 			System.out.println(n+"은(는) 홀수");
 		}
 		
+		sc.close();
 	}
 
 }

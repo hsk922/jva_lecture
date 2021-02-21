@@ -3,36 +3,36 @@ package com.urdomain.test;
 import java.util.Scanner;
 
 public class Computer {
-	//ÇÊµå
+	//ï¿½Êµï¿½
 	String windowsVersion = "Windows 7 Professional K";
 	String processor = "Intel(R) i5-4460 CPU @ 3.20GHz";
 	String ram = "12.0GB";
 	String systemType = "64bit";
 	
-	int load;  //·ÎµùÇÔ¼öºÎºÐ.
+	int load;  //ï¿½Îµï¿½ï¿½Ô¼ï¿½ï¿½Îºï¿½.
 	
 	//------------------------------------------------------------------------------------------
-	//					½Ã½ºÅÛÁ¤º¸ Ãâ·Â
+	//					ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 	public void sysinfo() throws InterruptedException {
 		System.out.println("==================================");
-		System.out.println("À©µµ¿ì ¹öÀü: " + windowsVersion);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: " + windowsVersion);
 		System.out.println("                                  ");
-		System.out.println("ÇÁ·Î¼¼¼­: " + processor);
+		System.out.println("ï¿½ï¿½ï¿½Î¼ï¿½ï¿½ï¿½: " + processor);
 		System.out.println("                                  ");
-		System.out.println("·¥: " + ram);
+		System.out.println("ï¿½ï¿½: " + ram);
 		System.out.println("                                  ");
-		System.out.println("½Ã½ºÅÛ Á¾·ù: " + systemType);
+		System.out.println("ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: " + systemType);
 		System.out.println("==================================");
-		System.out.println();										//¸îÃÊÈÄ ¸ÞÀÎ º¹±Í ¸Þ½ÃÁö Ãâ·ÂÇÏ°Å³ª , ¸ÞÀÎÀ¸·Î °¡´Â Å° ÀÔ·Â¹Þ´Â ±â´É Ãß°¡. (ex¾Æ¹«Å°³ª ´©¸¦ ½Ã ¸ÞÀÎÀ¸·Î °©´Ï´Ù. )
-		Thread.sleep(3000); //3ÃÊ ´ë±â
+		System.out.println();										//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°Å³ï¿½ , ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å° ï¿½Ô·Â¹Þ´ï¿½ ï¿½ï¿½ï¿½ ï¿½ß°ï¿½. (exï¿½Æ¹ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½. )
+		Thread.sleep(3000); //3ï¿½ï¿½ ï¿½ï¿½ï¿½
 	}
 	
-	// Ãâ·Â¸¸ ÇÏ´Â ÇÔ¼ö
+	// ï¿½ï¿½Â¸ï¿½ ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½
 	
 	// 
 	
 	//------------------------------------------------------------------------------------------
-	//				ºÎÆÃÈ­¸é
+	//				ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½
 	public void powerOn() throws InterruptedException {
 		System.out.println();	
 		System.out.println();	
@@ -46,25 +46,25 @@ public class Computer {
 		System.out.println("                                  ");
 		System.out.println("==================================");
 		System.out.println();	
-		System.out.println();				// ½Ã°£ Áö¿¬À» µÎ°í Ãâ·ÂÇÏµµ·Ï.
-		Thread.sleep(1500); //1.5ÃÊ ´ë±â
+		System.out.println();				// ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½.
+		Thread.sleep(1500); //1.5ï¿½ï¿½ ï¿½ï¿½ï¿½
 		System.out.println();	
 		System.out.println("==================================");
 		System.out.println("                                  ");
-		System.out.println("               ¤±¤±                ");
-		System.out.println("                ¤±¤±               ");
+		System.out.println("               ï¿½ï¿½ï¿½ï¿½                ");
+		System.out.println("                ï¿½ï¿½ï¿½ï¿½               ");
 		System.out.println("                                  ");
 		System.out.println("                                  ");
-		System.out.println("         Winows¸¦ ½ÃÀÛÇÏ´Â Áß         ");
+		System.out.println("         Winowsï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½         ");
 		System.out.println("       Microsoft Coperation       ");
 		System.out.println("==================================");
 		System.out.println();	
-		System.out.println();				// ½Ã°£ Áö¿¬À» µÎ°í Ãâ·ÂÇÏµµ·Ï.
-		Thread.sleep(1500); //1ÃÊ ´ë±â
+		System.out.println();				// ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½.
+		Thread.sleep(1500); //1ï¿½ï¿½ ï¿½ï¿½ï¿½
 		System.out.println();	
 		System.out.println("==================================");
 		System.out.println("                                  ");
-		System.out.println("              (·Î±×ÀÎ)              ");
+		System.out.println("              (ï¿½Î±ï¿½ï¿½ï¿½)              ");
 		System.out.println("                                  ");
 		System.out.println("                                  ");
 		System.out.println("                                  ");
@@ -84,11 +84,11 @@ public class Computer {
 		System.out.println("                                  ");
 		System.out.println("                                  ");
 		System.out.println("                                  ");
-		System.out.println("          ½Ã½ºÅÛÀ» Á¾·áÇÕ´Ï´Ù.          ");
+		System.out.println("          ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.          ");
 		System.out.println("==================================");
 		System.out.println();	
 		System.out.println();	
-		Thread.sleep(1500); //1.5ÃÊ ´ë±â
+		Thread.sleep(1500); //1.5ï¿½ï¿½ ï¿½ï¿½ï¿½
 		System.out.println();	
 		System.out.println("==================================");
 		System.out.println("                                  ");
@@ -120,15 +120,15 @@ public class Computer {
 		ee(w);
 	}
 	//------------------------------------------------------------------------------------------
-	//powerOff¸é pwCheckÇÏ´Â ÇÔ¼ö¸¦ ¸¸µé°í °ËÅäÇÏµµ·Ï
+	//powerOffï¿½ï¿½ pwCheckï¿½Ï´ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½
 	//------------------------------------------------------------------------------------------
 	public void winlogin(String pw) throws Exception {
 		Scanner scanner = new Scanner(System.in);
 		int j=0;
 		while (true) {
-			System.out.print("      ¾ÏÈ£ : ");
-			pw = scanner.nextLine(); // ¾ÏÈ£ ÀÔ·Â½Ã ¸¶Áö¸· ÀÚ¸® ¿Ü ¸ðµç ºÎºÐ ¾Æ½ºÅ×¸¯Ã³¸®·Î Ãâ·Â ¿øÇÔ
-			//System.out.println("==================================");// ÀÔ·Â¶õ ¹Ø¿¡ ¸¦ °°ÀÌ Ãâ·ÂÇÏ°í ½ÍÀ½.
+			System.out.print("      ï¿½ï¿½È£ : ");
+			pw = scanner.nextLine(); // ï¿½ï¿½È£ ï¿½Ô·Â½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Îºï¿½ ï¿½Æ½ï¿½ï¿½×¸ï¿½Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			//System.out.println("==================================");// ï¿½Ô·Â¶ï¿½ ï¿½Ø¿ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			if(pw.equals(winPw()) )  {
 				System.out.println("");
 				System.out.println("==================================");
@@ -137,12 +137,12 @@ public class Computer {
 				System.out.println("                                  ");
 				System.out.println("                                  ");
 				System.out.println("                                  ");
-				System.out.println("             È¯¿µÇÕ´Ï´Ù.             ");
-				System.out.println("          Administrator´Ô.        ");
+				System.out.println("             È¯ï¿½ï¿½ï¿½Õ´Ï´ï¿½.             ");
+				System.out.println("          Administratorï¿½ï¿½.        ");
 				System.out.println("==================================");
 				System.out.println();	
 				System.out.println();	
-				Thread.sleep(1500); //1.5ÃÊ ´ë±â
+				Thread.sleep(1500); //1.5ï¿½ï¿½ ï¿½ï¿½ï¿½
 				runs();
 				break;
 			} else{
@@ -154,7 +154,7 @@ public class Computer {
 				System.out.println("                                  ");
 				System.out.println("                                  ");
 				System.out.println("                                  ");
-				System.out.println("        ¾ÏÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.        ");
+				System.out.println("        ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.        ");
 				System.out.println("==================================");
 				System.out.println();	
 				System.out.println();	
@@ -167,16 +167,16 @@ public class Computer {
 				System.out.println("                                  ");
 				System.out.println("                                  ");
 				System.out.println("                                  ");
-				System.out.println("       ¾ÏÈ£¸¦ 3È¸ ¿¬¼Ó Æ²·È½À´Ï´Ù.       ");
-				System.out.println("        ½Ã½ºÅÛÀ» °­Á¦ Á¾·áÇÕ´Ï´Ù.        ");
+				System.out.println("       ï¿½ï¿½È£ï¿½ï¿½ 3È¸ ï¿½ï¿½ï¿½ï¿½ Æ²ï¿½È½ï¿½ï¿½Ï´ï¿½.       ");
+				System.out.println("        ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.        ");
 				System.out.println("==================================");
 				System.out.println();	
 				System.out.println();	
-				Thread.sleep(1500); //1.5ÃÊ ´ë±â
+				Thread.sleep(1500); //1.5ï¿½ï¿½ ï¿½ï¿½ï¿½
 				powerOff();
 				break;
 			}		
-
+			scanner.close();
 		}
 	}
 
@@ -185,10 +185,10 @@ public class Computer {
 //		nowloading();
 //		powerOn();
 //	
-//	} // ¿À¹ö·Îµå
+//	} // ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½
 //	getKeyDoit() {
 //		ppp("asdfasd");
-//		nowloading¤±¤¤¤·();
+//		nowloadingï¿½ï¿½ï¿½ï¿½ï¿½ï¿½();
 //		powerOff(int a);
 //	
 //	}	
@@ -210,36 +210,36 @@ public class Computer {
 //	}
 	
 	//------------------------------------------------------------------------------------------
-	//				¸ÞÀÎ¸Þ´º
+	//				ï¿½ï¿½ï¿½Î¸Þ´ï¿½
 	void runs() throws Exception {
 		
 		boolean run = true;
 		int keyCode = 0;
 		
 		while(run) {
-			if(keyCode!=13 && keyCode!=10) {					//EnterÅ°°¡ ÀÔ·ÂµÇ¸é 13°ú 10ÀÌ ÀÔ·ÂµÇ¹Ç·Î Á¦¿Ü½ÃÅ´.
+			if(keyCode!=13 && keyCode!=10) {					//EnterÅ°ï¿½ï¿½ ï¿½Ô·ÂµÇ¸ï¿½ 13ï¿½ï¿½ 10ï¿½ï¿½ ï¿½Ô·ÂµÇ¹Ç·ï¿½ ï¿½ï¿½ï¿½Ü½ï¿½Å´.
 				System.out.println("");
 				System.out.println("==================================");
 				System.out.println("                                  ");
-				System.out.println("        ¿øÇÏ½Ã´Â ±â´ÉÀ» ÀÔ·ÂÇÏ¼¼¿ä        ");
+				System.out.println("        ï¿½ï¿½ï¿½Ï½Ã´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½        ");
 				System.out.println("                                  ");
 				System.out.println("                                  ");
 				System.out.println("                                  ");
-				System.out.println(" 1.½Ã½ºÅÛ Á¤º¸ | 2.(¹Ì±¸Çö)| 3.½Ã½ºÅÛ Á¾·á" );	//¸Þ´º »ý¼º
-				System.out.println(" 4.½Ã½ºÅÛ Àç½ÃÀÛ                      ");
+				System.out.println(" 1.ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ | 2.(ï¿½Ì±ï¿½ï¿½ï¿½)| 3.ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½" );	//ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½
+				System.out.println(" 4.ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½                      ");
 				System.out.println("==================================");
 				System.out.println("");
-				System.out.print("ÀÔ·Â: ");
+				System.out.print("ï¿½Ô·ï¿½: ");
 				System.out.println("");
 			}
 			
-			keyCode = System.in.read();			//Å°º¸µåÀÇ Å° ÄÚµå¸¦ ÀÐÀ½
+			keyCode = System.in.read();			//Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å° ï¿½Úµå¸¦ ï¿½ï¿½ï¿½ï¿½
 			//1=49, 2=50, 3=51, 4=52, 5=53, 6=54, 7=55, 8=56, 9=57
 			
-			if (keyCode == 49) { //1À» ÀÐ¾úÀ» °æ¿ì
-				System.out.println("½Ã½ºÅÛ Á¤º¸¸¦ È®ÀÎÇÕ´Ï´Ù.");
+			if (keyCode == 49) { //1ï¿½ï¿½ ï¿½Ð¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+				System.out.println("ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 				try {
-					Thread.sleep(1000); //1ÃÊ ´ë±â
+					Thread.sleep(1000); //1ï¿½ï¿½ ï¿½ï¿½ï¿½
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -247,43 +247,42 @@ public class Computer {
 				loading();
 				sysinfo();
 				
-			} else if (keyCode == 50) { //2¸¦ ÀÐ¾úÀ» °æ¿ì
-				//°è»ê±â È£Ãâ (¸Þ´º ¹Ì±¸Çö )
+			} else if (keyCode == 50) { //2ï¿½ï¿½ ï¿½Ð¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+				//ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ (ï¿½Þ´ï¿½ ï¿½Ì±ï¿½ï¿½ï¿½ )
 				loading();
-				System.out.println("ÃßÈÄ Ãß°¡¿¹Á¤ÀÎ ¸Þ´ºÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 				Thread.sleep(1000);
-			} else if (keyCode == 51) { //3À» ÀÐ¾úÀ» °æ¿ì
+			} else if (keyCode == 51) { //3ï¿½ï¿½ ï¿½Ð¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 				run = false;
-				System.out.println("½Ã½ºÅÛÀ» Á¾·áÇÕ´Ï´Ù.");
-				Thread.sleep(1000); //1ÃÊ ´ë±â
+				System.out.println("ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+				Thread.sleep(1000); //1ï¿½ï¿½ ï¿½ï¿½ï¿½
 				loading();
 				powerOff();
-			} else if (keyCode == 52) { //4À» ÀÐ¾úÀ» °æ¿ì
+			} else if (keyCode == 52) { //4ï¿½ï¿½ ï¿½Ð¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 				run = false;
-				System.out.println("½Ã½ºÅÛÀ» Àç½ÃÀÛÇÕ´Ï´Ù.");
-				Thread.sleep(1000); //1ÃÊ ´ë±â
+				System.out.println("ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+				Thread.sleep(1000); //1ï¿½ï¿½ ï¿½ï¿½ï¿½
 				loading();
 				powerOn();
 				
 			}
 		}
-
 	}
 	//------------------------------------------------------------------------------------------
-	//				·ÎµùÁß Ç¥½ÃºÎºÐ ÇÔ¼ö
+	//				ï¿½Îµï¿½ï¿½ï¿½ Ç¥ï¿½ÃºÎºï¿½ ï¿½Ô¼ï¿½
 	int load1() {
 		return load;
 	}
 	
 //	void loadOn() {
-//		System.out.println("½Ã½ºÅÛ Á¤º¸¸¦ È®ÀÎÇÕ´Ï´Ù.");		//¸Þ´º ¸àÆ®°¡ ´Þ¶ó¼­ »ç¿ëx 
+//		System.out.println("ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");		//ï¿½Þ´ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Þ¶ï¿½ ï¿½ï¿½ï¿½x 
 //	}
 	
 	public void loading() throws InterruptedException {
 		for(int i=25; i<=100; i+=25) {
 			load = i;
-			System.out.println("·ÎµùÁß...  " + load + "%");
-				Thread.sleep(1000); //1ÃÊ ´ë±â
+			System.out.println("ï¿½Îµï¿½ï¿½ï¿½...  " + load + "%");
+				Thread.sleep(1000); //1ï¿½ï¿½ ï¿½ï¿½ï¿½
 		}
 		
 	}

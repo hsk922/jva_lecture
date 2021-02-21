@@ -23,7 +23,7 @@ public class ArrayEx03 {
 		double avg = (double)sum / 5.0;
 		System.out.println("총점:"+ sum);
 		System.out.println("평균:"+ avg);
-
+		sc.close();
 	}
 
 }

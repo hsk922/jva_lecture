@@ -19,25 +19,26 @@ public class login2 {
 //================================================================
 	public void login(String id, String pw) {
 		Scanner scanner = new Scanner(System.in);
-		String[] user = {"id00", "1234"} ; //db µî·ÏµÈ id, pw
+		String[] user = {"id00", "1234"} ; //db ï¿½ï¿½Ïµï¿½ id, pw
 		
 		boolean	 login1 = true;
 		while (login1) {
-			System.out.println("¾ÆÀÌµð¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("ï¿½ï¿½ï¿½Ìµï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½.");
 			id = scanner.nextLine();
 			
-			System.out.println("ºñ¹Ð¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½.");
 			pw = scanner.nextLine();
 			
 			if( id.equals(user[0]) && pw.equals(user[1]) )  {
-				System.out.println("Á¤»óÀûÀ¸·Î ·Î±×ÀÎ µÇ¾ú½À´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 				System.out.println("------------------------");
 				break;
 			} else {
-				System.out.println("¾ÆÀÌµð È¤Àº ºñ¹Ð¹øÈ£¸¦ È®ÀÎÇÏ¼¼¿ä.");
+				System.out.println("ï¿½ï¿½ï¿½Ìµï¿½ È¤ï¿½ï¿½ ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.");
 				System.out.println("------------------------");
 			}
 		}
+		scanner.close();
 	}
 
 //================================================================	

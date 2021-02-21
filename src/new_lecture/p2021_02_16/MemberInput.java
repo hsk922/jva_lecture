@@ -25,7 +25,7 @@ public class MemberInput {
 		
 		
 		System.out.println(a[j].getName());
-		
+		sc.close();
 		
 	}
 

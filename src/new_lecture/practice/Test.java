@@ -1,23 +1,25 @@
 package new_lecture.practice;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 
 public class Test {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws NumberFormatException, IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		String T = br.readLine();
-		int t = Integer.parseInt(T);	
-		
-		for (int i = 1; i <= t; i++) {
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+		int T = Integer.parseInt(br.readLine());	
+		for (int i = 1; i <= T; i++) {
 			String a = br.readLine();
 			String b = br.readLine();
 			int A = Integer.parseInt(a);
 			int B = Integer.parseInt(b);
-			System.out.println(A + B);
+			bw.write(A + B + "\n");
 		}
-
+		bw.flush();
 	}
 }

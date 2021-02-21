@@ -37,7 +37,7 @@ public class practice {
 		System.out.println("min:"+min);
 		
 		
-		
+		sc.close();
 	}
 
 }

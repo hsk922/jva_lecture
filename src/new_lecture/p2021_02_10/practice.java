@@ -60,7 +60,7 @@ public class practice {
 				System.out.println("똑바로 입력하세요~!!");
 			}
 		}
-
+		sc.close();
 	}
 
 }

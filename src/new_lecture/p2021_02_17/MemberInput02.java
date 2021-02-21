@@ -39,6 +39,7 @@ public class MemberInput02 {
 			} else if (yn.equals("n")) {
 				break;
 			}
+			sc.close();
 
 		} while (true);
 
@@ -51,7 +52,6 @@ public class MemberInput02 {
 			System.out.println("주소:" + mm.getAddress());
 		}
 	}
-
 }
 
 class MemberInfo02 extends Object{

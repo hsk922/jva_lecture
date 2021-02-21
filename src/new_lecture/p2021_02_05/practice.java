@@ -23,6 +23,7 @@ public class practice {
 			fac=fac*arr[k];
 		}
 		System.out.println(i + "!: " + fac);
+		sc.close();
 	}
 
 }

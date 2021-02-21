@@ -92,7 +92,7 @@ public class MemberInput {
 		
 		info.Info();
 		info2.Info();
-		
+		sc.close();
 	}
 
 }

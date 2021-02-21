@@ -8,24 +8,25 @@ public class FindId2 {
 		
 		FindId2 findid2 = new FindId2();
 		
-		String[] user = {"joy", "myid123", "e@mail.com"} ;   // db »ç¿ëÀÚ ÀÔ·Â°ª		
+		String[] user = {"joy", "myid123", "e@mail.com"} ;   // db ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Â°ï¿½		
 		Scanner scanner = new Scanner(System.in);
 		
 		String name = name1();
 		String id = id1();
 		String mail = mail1();
 		
-		System.out.println("ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½.");
 		name = scanner.nextLine();	
-		System.out.println("ÀÌ¸ÞÀÏÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½.");
 		mail = scanner.nextLine();
 		
 		if( name.equals(user[0]) && mail.equals(user[2]) )  {
-			System.out.println(name + "´ÔÀÇ ¾ÆÀÌµð´Â " + findid2.Asterisk() + " ÀÔ´Ï´Ù.");
+			System.out.println(name + "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ï¿½ " + findid2.Asterisk() + " ï¿½Ô´Ï´ï¿½.");
 
 		} else {
-				System.out.println("ÀÔ·ÂÇÏ½Å Á¤º¸´Â µî·ÏµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.");
+				System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
 		}
+		scanner.close();
 	}
 
 	//--------------------------------------------------------------------------
@@ -56,7 +57,7 @@ public class FindId2 {
 					idnew[5]= '*';
 				}	
 					String idnew2 = String.valueOf(idnew); 
-		return idnew2; // ¹ÝÈ¯Çü º¯¼ö ¶Ç´Â °ª  ½ÃÀÛÇÒ‹š Ç×»ó ¸®ÅÏ°ª ÀÓÀÇ·Î ÁÖ°í ½ÃÀÛ . ¿Ï¼ºÈÄ ¸®ÅÏ°ª ¸Â°Ô º¯°æ(¿À·ùÁ¦°Å)
+		return idnew2; // ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½ ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½Ò‹ï¿½ ï¿½×»ï¿½ ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½Ö°ï¿½ ï¿½ï¿½ï¿½ï¿½ . ï¿½Ï¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Â°ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 		}
 	//--------------------------------------------------------------------------	
 }

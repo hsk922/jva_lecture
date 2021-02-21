@@ -63,7 +63,7 @@ public class JuminCheck01 {
 		} else {
 			System.out.println("올바른 주민번호 입니다");
 		}
-
+		sc.close();
 	}
 
 }

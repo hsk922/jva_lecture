@@ -25,7 +25,7 @@ public class If03 {
 		}
 		System.out.println("max="+max);
 		System.out.println("min="+min);
-		
+		sc.close();
 	}
 
 }
