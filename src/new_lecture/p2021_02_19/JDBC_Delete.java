@@ -16,7 +16,7 @@ public static void main(String[] args) {
   Statement stmt = null ;
   String sql;
   int no;
-  String name, email, tel ;
+  String name, email, tel ;//no에만 사용하는 상태기때문에 필요없음
   
      try{
       Class.forName(driver);
@@ -29,12 +29,14 @@ public static void main(String[] args) {
       System.out.println(" customer 테이블에서 레코드 삭제하기 .....");
       System.out.print("삭제할 회원번호를 입력하세요: ");
       no = Integer.parseInt(br.readLine());     //테이블에서 삭제할 name 필드 값을 입력 받음
-   
+      //오라클은 외따옴표가 붙어있으면 문자, 아니면 숫자로 인식하기때문에 
+      //위의 경우 형 변환을 하는게 원칙이지만 하지 않아도 된다.
+      
       // DELETE 쿼리문을 작성
-      sql  = "DELETE FROM customer WHERE no ="+no;     
+      sql  = "DELETE FROM customer WHERE no ="+no;     //WHERE을 통해 no 하나만 선택
       
       //Statement 객체의 executeUpdate(sql) 메서드를 이용해 
-      int result=stmt.executeUpdate(sql) ;  //데이터베이스 파일에서 레코드 삭제시킴
+      int result=stmt.executeUpdate(sql) ;  //데이터베이스 파일에서 레코드 삭제시킴 // 정상삭제: 1 리턴 
       if(result == 1){
     	  System.out.println("회원삭제 성공");
       }else{
@@ -43,6 +45,8 @@ public static void main(String[] args) {
      }
     catch(Exception e){
       System.out.println("데이터베이스 연결 실패!");
+    //문자 입력시 입력값을 Integer로 형변환 한 상태이기 때문에  NumberFormatException발생
+    //예외가 발생하여도 프로그램을 안전하게 종료하기 위하여 finally에 close를 사용
     }
     finally{
       try{
