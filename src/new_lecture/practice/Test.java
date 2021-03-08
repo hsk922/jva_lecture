@@ -1,25 +1,23 @@
 package new_lecture.practice;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class Test {
 
 	public static void main(String[] args) throws NumberFormatException, IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-		int T = Integer.parseInt(br.readLine());	
+		int T = Integer.parseInt(br.readLine());
+        String[] strs = br.readLine().split(" ");
 		for (int i = 1; i <= T; i++) {
-			String a = br.readLine();
-			String b = br.readLine();
-			int A = Integer.parseInt(a);
-			int B = Integer.parseInt(b);
-			bw.write(A + B + "\n");
+			int a = Integer.parseInt(strs[0]);
+			int b = Integer.parseInt(strs[1]);
+			int c = a+b;
+			System.out.println("Case #"+i+": "+a+" + "+b+" = "+c);
+			
 		}
-		bw.flush();
+		
 	}
 }
