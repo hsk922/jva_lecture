@@ -4,7 +4,7 @@ select * from customer;
 delete from customer;
 
 -- 테이블 삭제
-drop table customer purge;
+drop table customer purge; -- purge를 붙여야 임시테이블이 생성되지 않고 깔끔하게 삭제됨
 
 -- 예1.
 -- primary key 제약조건 : not null + unique
